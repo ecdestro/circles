@@ -13,3 +13,9 @@ Area: 201.06177
 Sphere surface area: 804.24707
 Sphere volume: 2144.65885
 ```
+
+Python version runs on Python3
+```
+python circles.py 8
+```
+will give the same results.
