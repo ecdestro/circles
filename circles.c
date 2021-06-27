@@ -15,8 +15,8 @@ int main(int argc, char *argv[]) {
 		radius = atof(argv[1]);
 		printf("The circumference is %.5lf units long\n", (2*pi*radius));
 		printf("The area is %.5lf square units\n", (pi * (radius * radius)));
-		printf("The surface area of a sphere is %.5lf square units\n", (4 * pi * (radius * radius)));
-		printf("The volume of a sphere is %.5lf cubic units\n", ((4 / 3) * pi * (radius * radius * radius)));
+		printf("The surface area of a sphere is %.5lf square units\n", (4.00000 * pi * (radius * radius)));
+		printf("The volume of a sphere is %.5lf cubic units\n", ((4.00000 / 3.00000) * pi * (radius * radius * radius)));
 	}
 
 	return 0;
